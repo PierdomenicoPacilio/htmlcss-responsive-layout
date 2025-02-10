@@ -17,7 +17,7 @@
 
     main{
         max-width: 85%;
-        margin: 60px auto 50px;
+        margin: 60px auto 100px;
     }
 
     h2 > span{
@@ -45,6 +45,15 @@
     .tiramisu{
         float: left;
         margin-right: 15px;
+    }
+
+
+    /************************
+    footer
+    ************************/    
+
+    .footer-box{
+        max-width: 80%;
     }
 
 }

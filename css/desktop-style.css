@@ -28,6 +28,26 @@
         display: inline;
     }
 
+
+    /************************
+    footer
+    ************************/
+
+    .footer-box{
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 95%;
+        align-items: center;
+    }
+    
+    .footer-box > div{
+        text-align: left;
+    }
+
+    footer ul{
+        gap: 10px;
+    }
+
 }
 
 @media screen and (min-width:1035px){

@@ -1,6 +1,34 @@
 @media screen and (min-width:768px){
+
+
+    /************************
+    header
+    ************************/
+
     header{
         text-align: left;
         padding-left: 25px;
     }
+
+
+    /************************
+    main
+    ************************/
+
+    main{
+        max-width: 85%;
+        margin: 60px auto 50px;
+    }
+
+    h2 > span{
+        display: inline;
+    }
+
+    .descrizione > ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+
 }

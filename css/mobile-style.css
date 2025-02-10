@@ -36,6 +36,7 @@ common
 
 body{
     background-color: #f6f5f3;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -61,4 +62,47 @@ h1{
     font-weight: 100;
     padding: 10px 0 10px; 
     text-shadow: 1px 1px 1px #929292;
+}
+
+
+/************************
+    main
+************************/
+
+main{
+    max-width: 90%;
+    margin: 30px auto 50px;
+}
+
+.categoria{
+    text-decoration: none;
+    color: #929292;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #4e3969;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+h2 > span{
+    display: none;
+}
+
+.descrizione{
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px 2px #dedede;
+    padding: 40px 25px 50px;
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.descrizione > ul{
+    list-style: none;
+    line-height: 2.5;
 }

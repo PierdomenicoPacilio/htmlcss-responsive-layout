@@ -162,3 +162,30 @@ socials
 .banner{
     display: none;
 }
+
+
+/******** 
+resipe
+********/
+
+h3{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 100px;
+    border: 1px solid #ff9614;
+    margin-bottom: 25px;
+}
+
+.tiramisu{
+    width: 375px;
+    margin: 0 auto;
+}
+
+.recipe p{
+    font-size: 20px;
+    line-height: 2;
+}

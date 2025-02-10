@@ -20,6 +20,14 @@
         display: block;
     }
 
+    .social{
+        padding: 15px 20px;
+    }
+
+    .social > strong{
+        display: inline;
+    }
+
 }
 
 @media screen and (min-width:1035px){

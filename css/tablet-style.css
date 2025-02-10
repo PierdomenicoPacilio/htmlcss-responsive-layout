@@ -30,5 +30,13 @@
         gap: 40px;
     }
 
+    .socials{
+        gap: 20px;
+    }
+
+    .social{
+        padding: 15px calc(100% / 10 - 80px / 10 - 16px);
+    }
+
 
 }

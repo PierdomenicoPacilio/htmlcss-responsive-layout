@@ -91,6 +91,11 @@ h2 > span{
     display: none;
 }
 
+
+/******** 
+jumbotron
+********/
+
 .descrizione{
     background-color: #ffffff;
     box-shadow: 0 1px 5px 2px #dedede;
@@ -106,3 +111,50 @@ h4{
     list-style: none;
     line-height: 2.5;
 }
+
+
+/******** 
+socials
+********/
+
+.socials{
+    padding: 35px 0;
+    justify-content: space-between;
+}
+
+.socials > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.social{
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px 2px #dedede;
+    padding: 15px 20px; 
+    border-radius: 30px;
+}
+
+.social strong{
+    display: none;
+}
+
+.fa-facebook{
+    color: #1a77f3;
+}
+
+.fa-twitter{
+    color: #009eff;
+}
+
+.fa-instagram{
+    color: #dc75be;
+}
+
+.fa-pinterest{
+    color: #eb4522;
+}
+
+.fa-youtube{
+    color: #e62222;
+}
+
